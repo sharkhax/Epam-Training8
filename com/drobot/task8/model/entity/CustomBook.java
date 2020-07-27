@@ -18,11 +18,8 @@ public class CustomBook {
     }
 
     public CustomBook(int bookId, String name, int releaseYear, int pages, List<String> authors) {
+        this(name, releaseYear, pages, authors);
         this.bookId = bookId;
-        this.name = name;
-        this.releaseYear = releaseYear;
-        this.pages = pages;
-        this.authors = authors;
     }
 
     public String getName() {
